@@ -1,0 +1,17 @@
+[package]
+name = "sigmaos-clipboard"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Project"]
+description = "Clipboard management"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-clipboard"
+readme = "README.md"
+keywords = ["clipboard", "copy", "paste"]
+categories = ["gui"]
+
+[dependencies]
+sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }
+
+[profile.release]
+opt-level = 3
