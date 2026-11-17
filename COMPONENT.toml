@@ -3,12 +3,12 @@ name = "SigmaOS-clipboard"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "clipboard component"
+description = "Clipboard management for the SigmaOS project."
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
